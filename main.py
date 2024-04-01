@@ -1,6 +1,6 @@
 import streamlit as st
 import utils as utl
-from views import home,dcf
+from views import dcf, home
 
 st.set_page_config(layout="wide", page_title='Navbar sample')
 st.set_option('deprecation.showPyplotGlobalUse', False)
