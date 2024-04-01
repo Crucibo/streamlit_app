@@ -12,8 +12,14 @@ def load_view():
             <p>Hi there!</p>
             <p>This page will help you calculate intrinsic PE of consistent compounders through growth-RoCE DCF model.</p>
             <p>We then compare this with current PE of the stock to calculate degree of overvaluation.</p>
-
-        </body>
+         </body>
+        
+        <style>
+            div[data-baseweb="slider"] {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+        </style>
 
         """, unsafe_allow_html=True)
     
